@@ -21,6 +21,7 @@ public class MainActivity extends AppCompatActivity {
                 editor.putString("name", "Tom");
                 editor.putInt("age", 28);
                 editor.putBoolean("married", false);
+                editor.apply();
             }
         });
 
