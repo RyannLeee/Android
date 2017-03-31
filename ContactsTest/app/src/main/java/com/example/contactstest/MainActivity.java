@@ -42,7 +42,9 @@ public class MainActivity extends AppCompatActivity {
             cursor = getContentResolver().query(ContactsContract.CommonDataKinds.Phone.CONTENT_URI, null, null, null, null);
             if (cursor != null) {
                 while (cursor.moveToNext()) {
+                    //获取联系人姓名
                     String displayName = cursor.getString(cursor.getColumnIndex(ContactsContract.CommonDataKinds.Phone.DISPLAY_NAME));
+                    //获取联系人手机号
                     String number = cursor.getString(cursor.getColumnIndex(ContactsContract.CommonDataKinds.Phone.NUMBER));
                     contactsList.add(displayName + "\n" + number);
                 }
