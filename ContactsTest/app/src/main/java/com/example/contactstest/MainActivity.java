@@ -8,6 +8,7 @@ import android.provider.ContactsContract;
 import android.support.v4.app.ActivityCompat;
 import android.support.v4.content.ContextCompat;
 import android.support.v7.app.AppCompatActivity;
+import android.widget.ArrayAdapter;
 import android.widget.ListView;
 import android.widget.Toast;
 
@@ -16,7 +17,7 @@ import java.util.List;
 
 public class MainActivity extends AppCompatActivity {
 
-    ArraryAdapter<String> adapter;
+    ArrayAdapter<String> adapter;
 
     List<String> contactsList = new ArrayList<>();
 
@@ -25,7 +26,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         ListView contactsView = (ListView) findViewById(R.id.contacts_view);
-        adapter = new ArraayAdapter<String>(this, android.R.layout.simple_list_item_1, contactsList);
+        adapter = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, contactsList);
         contactsView.setAdapter(adapter);
         if (ContextCompat.checkSelfPermission(this, Manifest.permission.READ_CONTACTS) != PackageManager.PERMISSION_GRANTED) {
             ActivityCompat.requestPermissions(this, new String[]{ Manifest.permission.READ_CONTACTS }, 1);
