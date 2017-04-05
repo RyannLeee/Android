@@ -96,7 +96,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                            .build();
                    Response response = client.newCall(request).execute();
                    String responseData = response.body().string();
-                   //showResponse(responseData);
+                   showResponse(responseData);
                    //parseXMLWithPull(responseData);
                    //parseXMLWithSAX(responseData);
                    //parseJSONWithJSONObject(responseData);
@@ -107,19 +107,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             }
         }).start();
     }
-
-
-    /*private void showResponse(final String response) {
-        runOnUiThread(new Runnable() {
-            @Override
-            public void run() {
-                //在这里进行UI操作，将结果显示到界面上
-                responseText.setText(response);
-            }
-        });
-    }
-
-}*/
 
 
     //Pull方式解析XML格式数据
@@ -211,6 +198,16 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             Log.d("MainActivity", "name is " + app.getName());
             Log.d("MainActivity", "version is " + app.getVersion());
         }
+    }
+
+    private void showResponse(final String response) {
+        runOnUiThread(new Runnable() {
+            @Override
+            public void run() {
+                //在这里进行UI操作，将结果显示到界面上
+                responseText.setText(response);
+            }
+        });
     }
 
 }
