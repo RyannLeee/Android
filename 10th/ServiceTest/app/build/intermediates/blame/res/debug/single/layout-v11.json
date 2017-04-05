@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "C:\\Users\\Y-Lee\\Desktop\\Android\\10th\\ServiceTest\\app\\build\\intermediates\\res\\merged\\debug\\layout-v11\\notification_template_big_media_narrow.xml",
+        "source": "C:\\Users\\Y-Lee\\.android\\build-cache\\4ca781b5b28a7f325d47821855d0c62b7139dced\\output\\res\\layout-v11\\notification_template_big_media_narrow.xml"
+    },
+    {
+        "merged": "C:\\Users\\Y-Lee\\Desktop\\Android\\10th\\ServiceTest\\app\\build\\intermediates\\res\\merged\\debug\\layout-v11\\notification_media_action.xml",
+        "source": "C:\\Users\\Y-Lee\\.android\\build-cache\\4ca781b5b28a7f325d47821855d0c62b7139dced\\output\\res\\layout-v11\\notification_media_action.xml"
+    },
+    {
+        "merged": "C:\\Users\\Y-Lee\\Desktop\\Android\\10th\\ServiceTest\\app\\build\\intermediates\\res\\merged\\debug\\layout-v11\\notification_template_big_media_narrow_custom.xml",
+        "source": "C:\\Users\\Y-Lee\\.android\\build-cache\\4ca781b5b28a7f325d47821855d0c62b7139dced\\output\\res\\layout-v11\\notification_template_big_media_narrow_custom.xml"
+    },
+    {
+        "merged": "C:\\Users\\Y-Lee\\Desktop\\Android\\10th\\ServiceTest\\app\\build\\intermediates\\res\\merged\\debug\\layout-v11\\notification_media_cancel_action.xml",
+        "source": "C:\\Users\\Y-Lee\\.android\\build-cache\\4ca781b5b28a7f325d47821855d0c62b7139dced\\output\\res\\layout-v11\\notification_media_cancel_action.xml"
+    },
+    {
+        "merged": "C:\\Users\\Y-Lee\\Desktop\\Android\\10th\\ServiceTest\\app\\build\\intermediates\\res\\merged\\debug\\layout-v11\\notification_template_big_media_custom.xml",
+        "source": "C:\\Users\\Y-Lee\\.android\\build-cache\\4ca781b5b28a7f325d47821855d0c62b7139dced\\output\\res\\layout-v11\\notification_template_big_media_custom.xml"
+    },
+    {
+        "merged": "C:\\Users\\Y-Lee\\Desktop\\Android\\10th\\ServiceTest\\app\\build\\intermediates\\res\\merged\\debug\\layout-v11\\notification_template_big_media.xml",
+        "source": "C:\\Users\\Y-Lee\\.android\\build-cache\\4ca781b5b28a7f325d47821855d0c62b7139dced\\output\\res\\layout-v11\\notification_template_big_media.xml"
+    }
+]
