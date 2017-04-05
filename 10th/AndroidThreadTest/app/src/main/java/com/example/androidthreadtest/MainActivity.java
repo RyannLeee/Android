@@ -20,7 +20,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             switch (msg.what) {
                 case UPDATE_TEXT:
                     //在这里可以进行 UI 操作
-                    text.setText("Nice to meet you");
+                    text.setText("Nice to meet you!");
                     break;
                 default:
                     break;
