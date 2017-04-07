@@ -1,11 +1,11 @@
 [
     {
-        "merged": "C:\\Users\\Y-Lee\\Desktop\\Android\\10th\\ServiceTest\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_content_include.xml",
-        "source": "C:\\Users\\Y-Lee\\.android\\build-cache\\4ca781b5b28a7f325d47821855d0c62b7139dced\\output\\res\\layout\\abc_screen_content_include.xml"
-    },
-    {
         "merged": "C:\\Users\\Y-Lee\\Desktop\\Android\\10th\\ServiceTest\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_popup_menu_item_layout.xml",
         "source": "C:\\Users\\Y-Lee\\.android\\build-cache\\4ca781b5b28a7f325d47821855d0c62b7139dced\\output\\res\\layout\\abc_popup_menu_item_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\Y-Lee\\Desktop\\Android\\10th\\ServiceTest\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_content_include.xml",
+        "source": "C:\\Users\\Y-Lee\\.android\\build-cache\\4ca781b5b28a7f325d47821855d0c62b7139dced\\output\\res\\layout\\abc_screen_content_include.xml"
     },
     {
         "merged": "C:\\Users\\Y-Lee\\Desktop\\Android\\10th\\ServiceTest\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_dialog_title_material.xml",
@@ -36,12 +36,12 @@
         "source": "C:\\Users\\Y-Lee\\.android\\build-cache\\4ca781b5b28a7f325d47821855d0c62b7139dced\\output\\res\\layout\\notification_template_lines_media.xml"
     },
     {
-        "merged": "C:\\Users\\Y-Lee\\Desktop\\Android\\10th\\ServiceTest\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple.xml",
-        "source": "C:\\Users\\Y-Lee\\.android\\build-cache\\4ca781b5b28a7f325d47821855d0c62b7139dced\\output\\res\\layout\\abc_screen_simple.xml"
-    },
-    {
         "merged": "C:\\Users\\Y-Lee\\Desktop\\Android\\10th\\ServiceTest\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_media_custom.xml",
         "source": "C:\\Users\\Y-Lee\\.android\\build-cache\\4ca781b5b28a7f325d47821855d0c62b7139dced\\output\\res\\layout\\notification_template_media_custom.xml"
+    },
+    {
+        "merged": "C:\\Users\\Y-Lee\\Desktop\\Android\\10th\\ServiceTest\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple.xml",
+        "source": "C:\\Users\\Y-Lee\\.android\\build-cache\\4ca781b5b28a7f325d47821855d0c62b7139dced\\output\\res\\layout\\abc_screen_simple.xml"
     },
     {
         "merged": "C:\\Users\\Y-Lee\\Desktop\\Android\\10th\\ServiceTest\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_layout.xml",

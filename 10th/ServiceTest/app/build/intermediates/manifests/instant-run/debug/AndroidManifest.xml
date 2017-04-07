@@ -30,7 +30,9 @@
         <service
             android:name="com.example.servicetest.MyService"
             android:enabled="true"
-            android:exported="true" />
+            android:exported="true" >
+        </service>
+        <service android:name="com.example.servicetest.MyIntentService" />
 
         <provider
             android:name="com.android.tools.fd.runtime.InstantRunContentProvider"

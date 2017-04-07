@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\Y-Lee\Desktop\Android\10th\ServiceTest\app\src\main\AndroidManifest.xml:2:1-26:12
+ADDED from C:\Users\Y-Lee\Desktop\Android\10th\ServiceTest\app\src\main\AndroidManifest.xml:2:1-30:12
 	package
 		ADDED from C:\Users\Y-Lee\Desktop\Android\10th\ServiceTest\app\src\main\AndroidManifest.xml:3:5-38
 		INJECTED from C:\Users\Y-Lee\Desktop\Android\10th\ServiceTest\app\src\main\AndroidManifest.xml
@@ -14,7 +14,7 @@ ADDED from C:\Users\Y-Lee\Desktop\Android\10th\ServiceTest\app\src\main\AndroidM
 		INJECTED from C:\Users\Y-Lee\Desktop\Android\10th\ServiceTest\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\Y-Lee\Desktop\Android\10th\ServiceTest\app\src\main\AndroidManifest.xml
 application
-ADDED from C:\Users\Y-Lee\Desktop\Android\10th\ServiceTest\app\src\main\AndroidManifest.xml:5:5-24:19
+ADDED from C:\Users\Y-Lee\Desktop\Android\10th\ServiceTest\app\src\main\AndroidManifest.xml:5:5-28:19
 MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Y-Lee\.android\build-cache\4ca781b5b28a7f325d47821855d0c62b7139dced\output\AndroidManifest.xml:29:5-20
 MERGED from [com.android.support:support-v4:25.3.1] C:\Users\Y-Lee\.android\build-cache\f75fb1a8602b94237e9c88cd8681354466a53896\output\AndroidManifest.xml:29:5-20
 MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\Y-Lee\.android\build-cache\91dd9dd1c9107e463745ff24b30ce92e7018e207\output\AndroidManifest.xml:29:5-20
@@ -52,13 +52,17 @@ ADDED from C:\Users\Y-Lee\Desktop\Android\10th\ServiceTest\app\src\main\AndroidM
 	android:name
 		ADDED from C:\Users\Y-Lee\Desktop\Android\10th\ServiceTest\app\src\main\AndroidManifest.xml:16:27-74
 service#com.example.servicetest.MyService
-ADDED from C:\Users\Y-Lee\Desktop\Android\10th\ServiceTest\app\src\main\AndroidManifest.xml:20:9-23:47
+ADDED from C:\Users\Y-Lee\Desktop\Android\10th\ServiceTest\app\src\main\AndroidManifest.xml:20:9-24:19
 	android:enabled
 		ADDED from C:\Users\Y-Lee\Desktop\Android\10th\ServiceTest\app\src\main\AndroidManifest.xml:22:13-35
 	android:exported
 		ADDED from C:\Users\Y-Lee\Desktop\Android\10th\ServiceTest\app\src\main\AndroidManifest.xml:23:13-36
 	android:name
 		ADDED from C:\Users\Y-Lee\Desktop\Android\10th\ServiceTest\app\src\main\AndroidManifest.xml:21:13-38
+service#com.example.servicetest.MyIntentService
+ADDED from C:\Users\Y-Lee\Desktop\Android\10th\ServiceTest\app\src\main\AndroidManifest.xml:26:9-52
+	android:name
+		ADDED from C:\Users\Y-Lee\Desktop\Android\10th\ServiceTest\app\src\main\AndroidManifest.xml:26:18-49
 uses-sdk
 INJECTED from C:\Users\Y-Lee\Desktop\Android\10th\ServiceTest\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Y-Lee\.android\build-cache\4ca781b5b28a7f325d47821855d0c62b7139dced\output\AndroidManifest.xml:21:5-23:78
