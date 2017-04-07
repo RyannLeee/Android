@@ -2,29 +2,59 @@
 <instant-run
     abi="x86"
     api-level="24"
-    build-mode="COLD"
+    build-mode="FULL"
     density="560dpi"
     format="10"
     plugin-version="2.3.1"
-    timestamp="1491492581941"
+    timestamp="1491577154763"
     token="196636670719245353"
-    verifier="COLD_SWAP_REQUESTED" >
+    verifier="FULL_BUILD_REQUESTED" >
 
     <task
         name="javac"
-        duration="2156" />
+        duration="0" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="164" />
+        duration="393" />
     <task
         name="verifier"
-        duration="108" />
+        duration="262" />
 
     <artifact
         location="C:\Users\Y-Lee\Desktop\Android\10th\ServiceTest\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
+        type="SPLIT" />
+    <artifact
+        location="C:\Users\Y-Lee\Desktop\Android\10th\ServiceTest\app\build\intermediates\split-apk\debug\slices\slice_9.apk"
+        type="SPLIT" />
+    <artifact
+        location="C:\Users\Y-Lee\Desktop\Android\10th\ServiceTest\app\build\intermediates\split-apk\debug\slices\slice_4.apk"
+        type="SPLIT" />
+    <artifact
+        location="C:\Users\Y-Lee\Desktop\Android\10th\ServiceTest\app\build\intermediates\split-apk\debug\slices\slice_3.apk"
+        type="SPLIT" />
+    <artifact
+        location="C:\Users\Y-Lee\Desktop\Android\10th\ServiceTest\app\build\intermediates\split-apk\debug\slices\slice_5.apk"
+        type="SPLIT" />
+    <artifact
+        location="C:\Users\Y-Lee\Desktop\Android\10th\ServiceTest\app\build\intermediates\split-apk\debug\slices\slice_8.apk"
+        type="SPLIT" />
+    <artifact
+        location="C:\Users\Y-Lee\Desktop\Android\10th\ServiceTest\app\build\intermediates\split-apk\debug\slices\slice_7.apk"
+        type="SPLIT" />
+    <artifact
+        location="C:\Users\Y-Lee\Desktop\Android\10th\ServiceTest\app\build\intermediates\split-apk\debug\slices\slice_6.apk"
+        type="SPLIT" />
+    <artifact
+        location="C:\Users\Y-Lee\Desktop\Android\10th\ServiceTest\app\build\intermediates\split-apk\debug\dep\dependencies.apk"
+        type="SPLIT" />
+    <artifact
+        location="C:\Users\Y-Lee\Desktop\Android\10th\ServiceTest\app\build\intermediates\split-apk\debug\slices\slice_1.apk"
+        type="SPLIT" />
+    <artifact
+        location="C:\Users\Y-Lee\Desktop\Android\10th\ServiceTest\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
         type="SPLIT" />
     <artifact
         location="C:\Users\Y-Lee\Desktop\Android\10th\ServiceTest\app\build\outputs\apk\app-debug.apk"
@@ -32,51 +62,40 @@
 
     <build
         build-mode="FULL"
-        timestamp="1491490627879"
+        timestamp="1491577154763"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
-            location="C:\Users\Y-Lee\Desktop\Android\10th\ServiceTest\app\build\intermediates\split-apk\debug\dep\dependencies.apk"
-            type="SPLIT" />
-        <artifact
-            location="C:\Users\Y-Lee\Desktop\Android\10th\ServiceTest\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
-            type="SPLIT" />
-        <artifact
-            location="C:\Users\Y-Lee\Desktop\Android\10th\ServiceTest\app\build\intermediates\split-apk\debug\slices\slice_1.apk"
-            type="SPLIT" />
-        <artifact
             location="C:\Users\Y-Lee\Desktop\Android\10th\ServiceTest\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
-            type="SPLIT" />
-        <artifact
-            location="C:\Users\Y-Lee\Desktop\Android\10th\ServiceTest\app\build\intermediates\split-apk\debug\slices\slice_3.apk"
-            type="SPLIT" />
-        <artifact
-            location="C:\Users\Y-Lee\Desktop\Android\10th\ServiceTest\app\build\intermediates\split-apk\debug\slices\slice_4.apk"
-            type="SPLIT" />
-        <artifact
-            location="C:\Users\Y-Lee\Desktop\Android\10th\ServiceTest\app\build\intermediates\split-apk\debug\slices\slice_5.apk"
-            type="SPLIT" />
-        <artifact
-            location="C:\Users\Y-Lee\Desktop\Android\10th\ServiceTest\app\build\intermediates\split-apk\debug\slices\slice_6.apk"
-            type="SPLIT" />
-        <artifact
-            location="C:\Users\Y-Lee\Desktop\Android\10th\ServiceTest\app\build\intermediates\split-apk\debug\slices\slice_7.apk"
-            type="SPLIT" />
-        <artifact
-            location="C:\Users\Y-Lee\Desktop\Android\10th\ServiceTest\app\build\intermediates\split-apk\debug\slices\slice_8.apk"
             type="SPLIT" />
         <artifact
             location="C:\Users\Y-Lee\Desktop\Android\10th\ServiceTest\app\build\intermediates\split-apk\debug\slices\slice_9.apk"
             type="SPLIT" />
         <artifact
-            location="C:\Users\Y-Lee\Desktop\Android\10th\ServiceTest\app\build\outputs\apk\app-debug.apk"
-            type="SPLIT_MAIN" />
-    </build>
-    <build
-        build-mode="COLD"
-        timestamp="1491492581941"
-        verifier="COLD_SWAP_REQUESTED" >
+            location="C:\Users\Y-Lee\Desktop\Android\10th\ServiceTest\app\build\intermediates\split-apk\debug\slices\slice_4.apk"
+            type="SPLIT" />
         <artifact
-            location="C:\Users\Y-Lee\Desktop\Android\10th\ServiceTest\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
+            location="C:\Users\Y-Lee\Desktop\Android\10th\ServiceTest\app\build\intermediates\split-apk\debug\slices\slice_3.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\Y-Lee\Desktop\Android\10th\ServiceTest\app\build\intermediates\split-apk\debug\slices\slice_5.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\Y-Lee\Desktop\Android\10th\ServiceTest\app\build\intermediates\split-apk\debug\slices\slice_8.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\Y-Lee\Desktop\Android\10th\ServiceTest\app\build\intermediates\split-apk\debug\slices\slice_7.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\Y-Lee\Desktop\Android\10th\ServiceTest\app\build\intermediates\split-apk\debug\slices\slice_6.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\Y-Lee\Desktop\Android\10th\ServiceTest\app\build\intermediates\split-apk\debug\dep\dependencies.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\Y-Lee\Desktop\Android\10th\ServiceTest\app\build\intermediates\split-apk\debug\slices\slice_1.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\Y-Lee\Desktop\Android\10th\ServiceTest\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
             type="SPLIT" />
         <artifact
             location="C:\Users\Y-Lee\Desktop\Android\10th\ServiceTest\app\build\outputs\apk\app-debug.apk"
