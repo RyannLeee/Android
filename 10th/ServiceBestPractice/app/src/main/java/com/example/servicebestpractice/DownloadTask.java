@@ -33,7 +33,7 @@ public class DownloadTask extends AsyncTask<String, Integer, Integer> {
     }
 
     @Override
-    protected Integer doInBackground(String...params) {
+    protected Integer doInBackground(String... params) {
         InputStream is = null;
         RandomAccessFile savedFile = null;
         File file = null;
@@ -104,7 +104,7 @@ public class DownloadTask extends AsyncTask<String, Integer, Integer> {
     }
 
     @Override
-    protected void onProgressUpdate(Integer...values) {
+    protected void onProgressUpdate(Integer... values) {
         int progress = values[0];
         if (progress > lastProgress) {
             listener.onProgress(progress);
@@ -147,9 +147,9 @@ public class DownloadTask extends AsyncTask<String, Integer, Integer> {
                 .build();
         Response response = client.newCall(request).execute();
         if (response != null && response.isSuccessful()) {
-            long concentLength = response.body().contentLength();
+            long contentLength = response.body().contentLength();
             response.close();
-            return concentLength;
+            return contentLength;
         }
         return 0;
     }

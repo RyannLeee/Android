@@ -5,6 +5,7 @@ import android.app.NotificationManager;
 import android.app.PendingIntent;
 import android.app.Service;
 import android.content.Intent;
+import android.graphics.BitmapFactory;
 import android.os.Binder;
 import android.os.Environment;
 import android.os.IBinder;
@@ -110,6 +111,8 @@ public class DownloadService extends Service {
         Intent intent = new Intent(this, MainActivity.class);
         PendingIntent pi = PendingIntent.getActivity(this, 0, intent, 0);
         NotificationCompat.Builder builder = new NotificationCompat.Builder(this);
+        builder.setSmallIcon(R.mipmap.ic_launcher);
+        builder.setLargeIcon(BitmapFactory.decodeResource(getResources(), R.mipmap.ic_launcher));
         builder.setContentIntent(pi);
         builder.setContentTitle(title);
         if (progress > 0) {
