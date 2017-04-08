@@ -64,7 +64,7 @@ public class DownloadService extends Service {
         return mBinder;
     }
 
-    class DownloadBonder extends Binder {
+    class DownloadBinder extends Binder {
 
         public void startDownload(String url) {
             if (downloadTask == null) {
