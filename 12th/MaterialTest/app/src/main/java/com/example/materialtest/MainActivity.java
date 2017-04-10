@@ -28,7 +28,7 @@ public class MainActivity extends AppCompatActivity {
 
     private Fruit[] fruits = {new Fruit("Apple", R.drawable.apple), new Fruit("Banana", R.drawable.banana), new Fruit("Orange", R.drawable.orange),
             new Fruit("Watermelon", R.drawable.watermelon), new Fruit("Pear", R.drawable.pear), new Fruit("Grape", R.drawable.grape),
-            new Fruit("Pineapple", R.drawable.pineapple), new Fruit("Strawberry", R.drawable.strawberry), new Fruit("Chery", R.drawable.cherry), new Fruit("Mango", R.drawable.mango)};
+            new Fruit("Pineapple", R.drawable.pineapple), new Fruit("Strawberry", R.drawable.strawberry), new Fruit("Cherry", R.drawable.cherry), new Fruit("Mango", R.drawable.mango)};
 
     private List<Fruit> fruitList = new ArrayList<>();
 
