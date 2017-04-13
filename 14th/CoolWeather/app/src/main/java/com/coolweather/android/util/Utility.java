@@ -42,7 +42,7 @@ public class Utility {
             try {
                 JSONArray allCities = new JSONArray(response);
                 for (int i = 0; i < allCities.length(); i ++) {
-                    JSONObject cityObject = allProvinces.getJSONObject(i);
+                    JSONObject cityObject = allCities.getJSONObject(i);
                     City city = new City();
                     city.setCityName(cityObject.getString("name"));
                     city.setCityCode(cityObject.getInt("id"));
@@ -58,7 +58,7 @@ public class Utility {
     }
 
     //解析和处理服务器返回的县级数据
-    public static boolean handeleCountyResponse(String response, int cityID) {
+    public static boolean handleCountyResponse(String response, int cityID) {
         if (!TextUtils.isEmpty(response)) {
             try {
                 JSONArray allCounties = new JSONArray(response);
