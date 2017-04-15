@@ -127,7 +127,7 @@ public class WeatherActivity extends AppCompatActivity {
     }
 
     /**
-     * 根据天气id请求城市天气信息。
+     * 根据天气id请求城市天气信息
      */
     public void requestWeather(final String weatherId) {
         String weatherUrl = "http://guolin.tech/api/weather?cityid=" + weatherId + "&key=a9c238c4bc134910b2590f854717819b";
@@ -196,7 +196,7 @@ public class WeatherActivity extends AppCompatActivity {
     }
 
     /**
-     * 处理并展示Weather实体类中的数据。
+     * 处理并展示Weather实体类中的数据
      */
     private void showWeatherInfo(Weather weather) {
         String cityName = weather.basic.cityName;
