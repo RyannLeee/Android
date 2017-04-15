@@ -2,10 +2,6 @@ package com.coolweather.android.gson;
 
 import com.google.gson.annotations.SerializedName;
 
-/**
- * Created by Y-Lee on 2017/4/13.
- */
-
 public class Suggestion {
 
     @SerializedName("comf")

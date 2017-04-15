@@ -3,10 +3,6 @@ package com.coolweather.android.util;
 import okhttp3.OkHttpClient;
 import okhttp3.Request;
 
-/**
- * Created by Y-Lee on 2017/4/12.
- */
-
 public class HttpUtil {
 
     public static void sendOkHttpRequest(String address, okhttp3.Callback callback) {

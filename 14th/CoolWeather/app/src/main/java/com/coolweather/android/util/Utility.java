@@ -12,10 +12,6 @@ import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
 
-/**
- * Created by Y-Lee on 2017/4/12.
- */
-
 public class Utility {
 
     /**
