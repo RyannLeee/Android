@@ -1,11 +1,33 @@
 <resources>
 
     <!-- Base application theme. -->
-    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
-        <!-- Customize your theme here. -->
-        <item name="colorPrimary">@color/colorPrimary</item>
-        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
-        <item name="colorAccent">@color/colorAccent</item>
+    <style name="AppBaseTheme"
+        parent="android:Theme.Holo.NoActionBar" />
+    <style name="AppTheme" parent="AppBaseTheme" />
+    <!-- Customize your theme here. -->
+    <style name="text1">
+        <item name="android:textColor">@color/colorPrimary</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+    <style name="text3">
+        <item name="android:textColor">@color/colorPrimary</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+    <style name="button">
+        <item name="android:gravity">center</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@drawable/textcolor_button</item>
+        <item name="android:background">@drawable/background_button</item>
+    </style>
+    <style name="item">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@drawable/textcolor_button</item>
+        <item name="android:background">@drawable/background_body</item>
     </style>
 
 </resources>
